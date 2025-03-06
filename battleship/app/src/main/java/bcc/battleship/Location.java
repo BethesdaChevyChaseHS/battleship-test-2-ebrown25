@@ -9,7 +9,7 @@ public class Location {
     public Location() {
         this.ship = false;
         this.status = Constants.UNGUESSED;
-    }
+    } 
 
     // Was this Location a hit?
     public boolean checkHit() {
